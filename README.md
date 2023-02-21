@@ -1,263 +1,119 @@
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Responsive portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="ext.js" language="javascript"></script>
-        <script src="typeeffect.js" language="javascript"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <!--Used Font Awesome cdn website for this link-->
-    </head>
-    <body>
-        <header>
-         <a href="#" class="logo">Portfolio</a>
-         <ul class="menu">
-             <li><a href="#home">Home</a></li>
-             <li><a href="#about">About</a></li>
-             <li><a href="#skills">Skills</a></li>
-             <li><a href="#services">Services</a></li>
-             <li><a href="#contact">Contact</a></li>
-         </ul>
-        </header>
+<html>
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-        <section class="banner" id="home">
-            <div class="textBx">
-                <h2>Hello, I'm<br> <span>Sumit Sharma</span></h2>
-                <h3>I'm a <span class="typed-text">Learner</span><span class="cursor">&nbsp;</span></h3><br>
-                <a href="#about" class="btn">About Me</a>
-            </div>
-        </section>
-        <section class="about" id="about">
-            <div class="heading">
-                <p>Get to Know me</p>
-                <h2>About Me</h2>
-            </div>
-            <div class="content">
-                <div class="w50">
-                    <img src="photos/MPIC.jpg" alt="Profile Photo" class="propic">
-                    <div class="contentBx w50">
-                        <h2>Who am I ?</h2>
-                        <h2>I'm <b>Sumit Sharma</b>, BCA (UIC) 1st Year Student</h2>
-                        <p>I am a Sophomore from  CHANDIGARH UNIVERSITY,Mohali, Punjab. I sometimes write technical blogs, make 3D Models in Blender 3D along with Unity Engine ,
-                            Create Graphic Designs/Posters , Make Basic Webpages and Apps. I am a Core Team Member of Developer Students Club - CU and 
-                            also part of the Technical Member in AWSCC - CU [Amazon Cloud Community].
-                        </p><br>
-                        <p>I Spend My Time in Gaming and Coding,  Currently.I am exploring different fields in search of something which I could continue becoming good in it. </p>
-                            <div class="heading bottom">
-                                <a href="photos/res.pdf" target="_blank" class="btn round">DOWNLOAD CV</a>
-                                <div class="bt">
-                                    <b>Name:</b> Sumit Sharma<br>
-                                    <b>Age:</b> 18
-                                </div>
-                                <div class="bt">
-                                    <b>Email: </b>sharmasumit96643@gmail.com<br>
-                                    <b>Location: </b>Ambala Cantt, INDIA
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <section class="skills" id="skills">
-            <div class="heading">
-                <h2>My Skills</h2>
-            </div>
-            <div class="skills-bar">
-                <div class="bar">
-                    <div class="info">
-                        <span>HTML</span>
-                    </div>
-                    <div class="progress-line html"><span></span></div>
-                </div>
-                
-                <div class="bar">
-                    <div class="info">
-                        <span>CSS</span>
-                    </div>
-                    <div class="progress-line css"><span></span></div>
-                </div>
+</head>
+<body>
+	<!----hero Section start---->
 
-                <div class="bar">
-                    <div class="info">
-                        <span>JS</span>
-                    </div>
-                    <div class="progress-line js"><span></span></div>
-                </div>
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+			<a href="#" class="btn">Subscribe</a>
+		</nav>
 
-                <div class="bar">
-                    <div class="info">
-                        <span>JAVA</span>
-                    </div>
-                    <div class="progress-line java"><span></span></div>
-                </div>
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Aashtoush <span>Anand</span></h1>
+			<h3>I'am a Web Developer.</h3>
+			<div class="newslatter">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+					<input type="submit" name="submit" value="Lets Start">
+				</form>
+			</div>
+		</div>
+	</div>
 
-                <div class="bar">
-                    <div class="info">
-                        <span>C++</span>
-                    </div>
-                    <div class="progress-line cpp"><span></span></div>
-                </div>
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="img/main-img.png">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
 
-                <div class="bar">
-                    <div class="info">
-                        <span>Blender 3D</span>
-                    </div>
-                    <div class="progress-line blender"><span></span></div>
-                </div>
+	<!-----service section start----------->
+	<div class="service">
+		<div class="title">
+			<h2>Our Services</h2>
+		</div>
 
-                <div class="bar">
-                    <div class="info">
-                        <span>Kotlin</span>
-                    </div>
-                    <div class="progress-line kotlin"><span></span></div>
-                </div>
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-                <div class="bar">
-                    <div class="info">
-                        <span>C</span>
-                    </div>
-                    <div class="progress-line c"><span></span></div>
-                </div>
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
 
-                <div class="bar">
-                    <div class="info">
-                        <span>Adobe Photoshop</span>
-                    </div>
-                    <div class="progress-line ps"><span></span></div>
-                </div>
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-                <div class="bar">
-                    <div class="info">
-                        <span>Python, DJANGO, MYSQL </span>
-                    </div>
-                    <div class="progress-line py"><span></span></div>
-                </div>
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
 
-                <div class="bar">
-                    <div class="info">
-                        <span>AWS </span>
-                    </div>
-                    <div class="progress-line aws"><span></span></div>
-                </div>
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-            </div>
-        </section>
-            
-        <section class="services" id="services">
-            <div class="heading white">
-                <h2>My Services</h2>
-                <p>Services I Offer To My Clients</p>
-            </div>
-            <div class="content">
-                <div class="servicesBx">
-                    <i class="fa fa-pencil-square-o fa-5x"></i>
-                    <h3>Graphic Designing</h3>
-                    <p>Skills/Tools : Poster Making,Photoshop</p>
-                </div>
-               
-                    
-                    <!--icons from font awesome bootstrap cheatsheet-->
-                
-                <div class="servicesBx">
-                    <i class="fa fa-android fa-5x"></i>
-                    <h3>App Development</h3>
-                    <p>Skills/Tools : Android Studio , Kotlin, Flutter</p>
-                    
-                </div>
-                <div class="servicesBx">
-                    <i class="fa fa-fighter-jet fa-5x"></i>
-                    <h3>3D Modeling</h3>
-                    <p>Skills/Tools : Blender 3D, Unity 3D</p>
-                    
-                </div>
-                <div class="servicesBx">
-                    <i class="fa fa-html5 fa-5x"></i>
-                    <h3>Front-End Web Development/Designing</h3>
-                    <p>Skills/Tools : HTML , CSS & JS</p>
-                </div>
-                
-            </div>
-        </section>
-        <section class="contact" id="contact">
-            <div class="heading white">
-                <p><u>Feel Free to Contact Me Anytime</u></p>
-                <h2>Get In Touch</h2>
-            </div>
-            <div class="content">
-                <div class="contactInfo">
-                    <h3>Contact Info</h3>
-                    <p>Always available for freelancing work, Ready to Collaborate and Team up with others! , Feel free to contact me!</p>
-                    <div class="contactInfoBx">
-                        <div class="box">
-                            <div class="icon">
-                                <i class="fa fa-map-marker"></i>
-                            </div>
-                            <div class="text">
-                                <h3>Address</h3>
-                                <address>Defence Colony, Sec = B, HNO= 34,<br> Ambala Cantt ,<br>Haryana,<br> India ,<br> 133001 </address>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="text">
-                                <h3>Phone no:</h3>
-                                <p>+91 7015879348</p>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="icon">
-                                <i class="fa fa-envelope-o"></i>
-                            </div>
-                            <div class="text">
-                                <h3>Email Address</h3>
-                               <p>sharmasumit96643@gmail.com</p> 
-                            </div>
-                        </div>
-                        <br>
-                        <h3>Social Connect</h3>
-                        <div class="boxSocial">
-                            <div class="icon">
-                                <a href="https://twitter.com/sumitsh89495890" target="_blank">
-                                    <i class="fa fa-twitter-square"></i>
-                                </a>
-                            </div>
-                            <div class="icon">
-                                <a href="https://www.linkedin.com/in/Sumit Sharma/" target="_blank">
-                                    <i class="fa fa-linkedin-square"></i>
-                                </a>
-                            </div>
-                            <div class="icon">
-                                <a href="https://github.com/1234sumitsharma" target="_blank">
-                                    <i class="fa fa-github"></i>
-                                </a>
-                            </div>
-                            <div class="icon">
-                                <a href="https://www.instagram.com/sharmasumit96643/" target="_blank">
-                                    <i class="fa fa-instagram"></i>
-                                </a>
-                            </div>
-                             
-                        </div>
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-                    </div>
-                </div>
-                <div class="formBx">
-                    <form>
-                        <h3>Message Me</h3>
-                        <input type="text"placeholder="Full Name">
-                        <input type="email"placeholder="Email">
-                        <textarea name="" id="" rows="8"placeholder="Your Message"></textarea>
-                        <input type="submit" value="Send Message" name="" />
-                    </form>
-                </div>
-            </div>
-        </section>
-        
-    </body>
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p>Let Me Get You A Beautiful Website.</p>
+		<a class="button-two" href="#">Hire Me</a>
+	</div>
+
+	<!------footer start--------->
+	<footer>
+		<p>Aashutosh Anand</p>
+		<p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">CopyRight By Sumit Sharma</p>
+	</footer>
+</body>
 </html>
